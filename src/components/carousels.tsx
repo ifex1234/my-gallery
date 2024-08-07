@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
 
@@ -9,8 +10,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { CarouselImgs } from "@/lib/contant";
+import Image from "next/image";
 
-export function CarouselPlugin() {
+export function Carousell() {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
@@ -18,18 +21,16 @@ export function CarouselPlugin() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-xs"
+      className="w-full md:w-[1000px] max-w-xs bg-black"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">{index + 1}</span>
-                </CardContent>
+      <CarouselContent className="w-full md:w-[1000px]">
+        {CarouselImgs.map((content) => (
+          <CarouselItem key={content.id}>
+            <div className="p-1 w-full md:w-[1000px]">
+              <Card className="w-96 md:w-[1000px]">
+                <Image src={content.img} alt="" />
               </Card>
             </div>
           </CarouselItem>
