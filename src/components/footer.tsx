@@ -10,12 +10,12 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="w-full min-h-52 flex flex-col justify-between">
-      <div className="w-full flex flex-col md:flex-row  justify-between">
+    <div className="w-full flex flex-col justify-between">
+      <div className="w-full flex flex-col md:flex-row  justify-between min-h-52 px-5 my-3 gap-3">
         <div className="w-1/2 md:w-1/4">
           <h4 className="my-2 text-sm font-semibold text-gray-500">About</h4>
           <p className="text-sm">
-            Kaphgall is a showcase of the world's finest designs.
+            Kaphgall is a showcase of the world's finest web designs.
           </p>
         </div>
         <div className="w-1/2 md:w-1/4">
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <span className="flex flex-col w-full text-sm justify-center items-center">
+      <span className="flex flex-col w-full text-sm justify-center items-center px-5">
         <p>
           Copyright © 2024 Howells—Studio All screenshots © of their respective
           owners.
