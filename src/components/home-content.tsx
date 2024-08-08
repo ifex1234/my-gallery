@@ -1,6 +1,7 @@
 import { HomeImage } from "@/lib/contant";
 import Image from "next/image";
 import React from "react";
+import { Separator } from "./ui/separator";
 
 export default function HomeContent() {
   return (
@@ -15,6 +16,7 @@ export default function HomeContent() {
           <p className="text-slate-500 text-xs">555</p>
         </div>
       ))}
+      <Separator />
     </div>
   );
 }

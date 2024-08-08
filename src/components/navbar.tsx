@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="w-full h-28 bg-purple-100 flex justify-between px-5 items-center">
       <div>icon</div>
       <div>
-        <Avatar className="bg-black">hello</Avatar>
+        <Avatar>hello</Avatar>
       </div>
     </div>
   );
