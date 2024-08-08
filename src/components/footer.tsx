@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="w-1/2 md:w-1/4">
           <h4 className="my-2 text-sm font-semibold text-gray-500">About</h4>
           <p className="text-sm">
-            Kaphgall is a showcase of the world's finest web designs.
+            Kaphgall is a showcase of the world's finest designs.
           </p>
         </div>
         <div className="w-1/2 md:w-1/4">

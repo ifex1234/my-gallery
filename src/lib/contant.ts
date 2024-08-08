@@ -1,13 +1,9 @@
 import { StaticImageData } from "next/image";
-import img1 from "../../public/carousel/f9142c019e4f36257ffb4cf0528273081655e029-1366x15906.webp";
-import img2 from "../../public/carousel/image_processing20240801-2-fb1pw4.png";
 import img3 from "../../public/carousel/image_processing20240801-2-wcitam.png";
 import img4 from "../../public/carousel/image_processing20240806-5-471gmz.png";
 import img5 from "../../public/carousel/image_processing20240806-5-n89zna.png";
 import img6 from "../../public/carousel/image_processing20240806-5-pdugb6.png";
 import img7 from "../../public/carousel/image_processing20240806-5-w8kzj6.png";
-import img8 from "../../public/carousel/image_processing20240806-5-wn50lr.png";
-import img9 from "../../public/carousel/image_processing20240807-5-ooyzry.png";
 import img10 from "../../public/carousel/image_processing20240807-5-zyabrx.png";
 
 import image1 from "../../public/main/image_processing20240702-2-7dpq5o.png";
@@ -39,14 +35,6 @@ type Props = {
 }[];
 export const CarouselImgs: Props = [
   {
-    id: 0,
-    img: img1,
-  },
-  {
-    id: 1,
-    img: img2,
-  },
-  {
     id: 2,
     img: img3,
   },
@@ -65,14 +53,6 @@ export const CarouselImgs: Props = [
   {
     id: 6,
     img: img7,
-  },
-  {
-    id: 7,
-    img: img8,
-  },
-  {
-    id: 8,
-    img: img9,
   },
   {
     id: 9,
