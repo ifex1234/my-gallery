@@ -1,5 +1,4 @@
 import React from "react";
-import { Avatar } from "./ui/avatar";
 import { LucideUser2 } from "lucide-react";
 export default function Navbar() {
   return (

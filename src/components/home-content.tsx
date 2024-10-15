@@ -2,7 +2,6 @@ import { HomeImage } from "@/lib/contant";
 import Image from "next/image";
 import React from "react";
 import { Separator } from "./ui/separator";
-// import Pagination from "./pagination";
 
 export default function HomeContent() {
   return (
@@ -18,7 +17,6 @@ export default function HomeContent() {
         </div>
       ))}
       <Separator />
-      {/* <Pagination /> */}
     </div>
   );
 }
